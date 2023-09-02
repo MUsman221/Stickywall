@@ -1,0 +1,23 @@
+// @import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
+@import './sass/bootstrap';
+@import './sass/sider';
+
+
+#root {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #949b9a;
+}
+
+main {
+    flex: 1 0 auto;
+
+}
+
+#deleteIcon {
+    position: absolute;
+    top: 0;
+    right: 0
+}
